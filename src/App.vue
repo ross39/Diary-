@@ -6,7 +6,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 <template>
   <header>
     <img
-      alt="Vue logo"
+      alt="Notebook"
       class="logo"
       src="@/assets/notebook-icon.svg"
       width="125"
@@ -17,8 +17,9 @@ import HelloWorld from "./components/HelloWorld.vue";
       <HelloWorld msg="Diary" />
 
       <nav>
-        <RouterLink to="/">Daily</RouterLink>
-        <RouterLink to="/about">Montly</RouterLink>
+        <!---<RouterLink to="/">Daily</RouterLink>-->
+        <RouterLink to="/monthlyview">Montly</RouterLink>
+        <RouterLink to="/dailyview">Daily</RouterLink>
       </nav>
     </div>
   </header>
