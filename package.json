@@ -13,7 +13,11 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "bootstrap": "^5.2.0",
+    "bootstrap-vue": "^2.22.0",
+    "bootstrap-vue-3": "^0.2.9",
     "pinia": "^2.0.17",
+    "v-calendar": "^3.0.0-alpha.8",
     "vue": "^3.2.37",
     "vue-router": "^4.1.3"
   },
